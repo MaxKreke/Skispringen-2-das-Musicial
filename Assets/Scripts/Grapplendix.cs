@@ -10,7 +10,7 @@ public class Grapplendix : MonoBehaviour
     public bool grapplendix = true;
     public Camera ownCamera;
     public LayerMask boxLayers;
-    public gameObject parentChild;
+    public GameObject parentChild;
     private SpringJoint joint;
 
 
@@ -29,7 +29,7 @@ public class Grapplendix : MonoBehaviour
             {
                 grappled = true;
                 target = hit.point;
-                joint = player.gameObject.AddComponent<SpringJoint>();
+                //joint = player.gameObject.AddComponent<SpringJoint>();
 
             }
         }
