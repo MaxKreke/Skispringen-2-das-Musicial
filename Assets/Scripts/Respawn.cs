@@ -28,6 +28,12 @@ public class Respawn : MonoBehaviour
 
     private void _Respawn()
     {
+        Transform cam = transform.GetChild(0);
+        if(cam.childCount > 0)
+        {
+            GameObject darm = cam.GetChild(0).gameObject;
+            darm.GetComponent<Grapplendix>().CutLine();
+        }
         body.velocity = Vector3.zero;
         transform.position = initialPosition;
         GameObject key = GetComponent<Inventory>().key;

@@ -27,6 +27,8 @@ public class Movement : MonoBehaviour
     public bool airMovement;
     public bool bouncyBoots;
     public bool doubleJump;
+    public Grapplendix grapplendix;
+    public Grapplendix otherGrapplendix;
 
     private bool storedDoubleJump;
     private bool storedMoveCommand;
@@ -121,7 +123,7 @@ public class Movement : MonoBehaviour
         if (force != Vector3.zero)
         {
             body.velocity = Vector3.ClampMagnitude(rotatedForce.normalized * (currentSpeed+relativeSpeed)/2, 150)+body.velocity.y* Vector3.up;
-            body.AddForce(rotatedForce);
+            body.AddForce(rotatedForce*8);
         }
     }
 
@@ -168,6 +170,13 @@ public class Movement : MonoBehaviour
             otherCamera.enabled = true;
             otherCharacter.GetComponent<Movement>().enabled = true;
             GetComponent<Movement>().enabled = false;
+            if (grapplendix) {
+                grapplendix.enabled = false;
+            }
+            else if (otherGrapplendix)
+            {
+                otherGrapplendix.enabled = true;
+            }
         }
     }
 

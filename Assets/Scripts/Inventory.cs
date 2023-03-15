@@ -5,6 +5,8 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public GameObject key;
+    public GameObject money;
+
     private void Start()
     {
         key = null;
@@ -25,4 +27,7 @@ public class Inventory : MonoBehaviour
         }
 
     }
+
+
+
 }

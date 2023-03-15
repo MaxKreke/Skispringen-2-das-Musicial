@@ -1240,7 +1240,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9fbeb0f48c2637e46b6b328aa432cbeb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 91a0c2e78cb8ae740a3a0ebb3b9dda33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
@@ -1252,7 +1252,7 @@ Material:
     - _Cutoff: 0.273
     - _SquashAmount: 1
     m_Colors:
-    - _Color: {r: 0.6981132, g: 0.29803923, b: 0.09803922, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

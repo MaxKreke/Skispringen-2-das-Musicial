@@ -1,0 +1,381 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678858161021124, "dur": 151582, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678858161021277, "dur": 9333, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678858161030611, "dur": 128922, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678858161159534, "dur": 13170, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678858161172940, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678858161045904, "dur":418, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161046327, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678858161046402, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678858161046413, "dur":298, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678858161046724, "dur":227, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161046951, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138419, "dur":216, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138635, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138641, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138642, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138646, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138647, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138654, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138658, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138659, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138662, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138662, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138665, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138666, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138668, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138669, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138672, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138673, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138676, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138678, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138683, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138684, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138686, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138687, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138690, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138691, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138693, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138694, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138697, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138697, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138700, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138700, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138704, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138714, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161138725, "dur":613, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678858161046806, "dur":161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161046967, "dur":1303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048271, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048301, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048311, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048325, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048338, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048355, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048373, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048385, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048399, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048413, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048424, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048437, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048447, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048461, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048471, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048481, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048491, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048546, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161048563, "dur":89660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678858161138224, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678858161138248, "dur":161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161046748, "dur":208, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161046956, "dur":1327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048284, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048305, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048316, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048328, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048340, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048358, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048369, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048386, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048395, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048408, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048421, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048433, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048442, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048455, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048466, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048477, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048490, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048501, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161048555, "dur":60282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678858161108839, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678858161108913, "dur":29496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161047157, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161047157, "dur":985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048146, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048169, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048179, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048189, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048196, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048206, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048212, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048224, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048443, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048464, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048474, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048489, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048546, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048558, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161048567, "dur":40786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678858161089353, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678858161089379, "dur":49028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161046796, "dur":166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161046962, "dur":1314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048276, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048302, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048313, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048326, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048338, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048352, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048364, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048383, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048393, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048406, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048416, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048430, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048440, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048450, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048459, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048469, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048478, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048491, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048544, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048557, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048567, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048578, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161048588, "dur":89790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678858161138378, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678858161138393, "dur":13, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678858161046831, "dur":142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678858161046974, "dur":1295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678858161048270, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678858161048913, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678858161048923, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1678858161048935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678858161053522, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1678858161054098, "dur":84323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161046860, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161046979, "dur":1287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048267, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048294, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048301, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048307, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048314, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048324, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048330, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048337, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048342, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048350, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048357, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048371, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048376, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048383, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048392, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048398, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048405, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048411, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048415, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048421, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048426, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048433, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048439, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048445, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048450, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048456, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048464, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048470, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048476, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048484, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048490, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048499, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048735, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048746, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048752, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048758, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048765, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048770, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161048776, "dur":39340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678858161088116, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678858161088147, "dur":50261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161046881, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161046984, "dur":1283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161048267, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678858161048295, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161048306, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678858161048321, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161048339, "dur":90043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678858161138383, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678858161138395, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1678858161138395, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161046907, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161046989, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048234, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048645, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048660, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048672, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048684, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048695, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048704, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048715, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048724, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048736, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048746, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048756, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048963, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1678858161048978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678858161049003, "dur":7088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1678858161056105, "dur":82310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161046925, "dur":69, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161046995, "dur":1154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048149, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048191, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048209, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048224, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048236, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048255, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048687, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048704, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048714, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048725, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048733, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048743, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048751, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048761, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048769, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048779, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048787, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678858161048802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161049334, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678858161051343, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678858161051367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678858161051373, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678858161054251, "dur":84166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161046948, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161046952, "dur":1189, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048146, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048148, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048163, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048164, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048170, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048181, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048190, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048199, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048206, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048213, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048219, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048228, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048235, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048246, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048252, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048637, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048650, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048661, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048672, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048682, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048693, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048703, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048711, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048721, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048729, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048739, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048748, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048758, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048766, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048776, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048785, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1678858161048803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678858161049318, "dur":10324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1678858161059656, "dur":78813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678858161046976, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678858161046977, "dur":1291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678858161048268, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678858161048940, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678858161048950, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1678858161048963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678858161048999, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1678858161052919, "dur":85536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161047013, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161047013, "dur":1219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048232, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048242, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048248, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt.exe" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048275, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048282, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048289, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048297, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048304, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048310, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048316, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048323, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048329, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048369, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048375, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048382, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048388, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048394, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048401, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048406, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048412, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048417, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048422, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048428, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048434, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048449, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048456, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048463, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048470, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048478, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048484, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048495, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048547, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161048553, "dur":36016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678858161084570, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678858161084584, "dur":53884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678858161047038, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678858161047038, "dur":1296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678858161048334, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678858161048346, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678858161048353, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678858161048363, "dur":11195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678858161059561, "dur":78909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161047066, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161047066, "dur":1080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048149, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048179, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048198, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048229, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048240, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048263, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048663, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048769, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048778, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1678858161048803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161051995, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1678858161052734, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1678858161052802, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678858161052814, "dur":85604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161047105, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161047106, "dur":1039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048147, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048188, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048208, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048222, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048813, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048903, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048916, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1678858161048931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678858161051974, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1678858161054199, "dur":84217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161047125, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161047125, "dur":1019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048146, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048180, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048205, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048222, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048233, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048247, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048259, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048828, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161048836, "dur":2719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1678858161051555, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161051575, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Game Jam/Developer Build/JungUndAlt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1678858161051594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678858161051599, "dur":5778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Game Jam/Developer Build/JungUndAlt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1678858161057391, "dur":81080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678858161139817, "dur":690, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678858161172987, "dur": 411, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678858161172928, "dur": 490, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -10,5 +10,12 @@ public class Terminal : MonoBehaviour
         //Physics.gravity = new Vector3(0, -9, 0);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        Application.targetFrameRate = 120;
+    }
+
+    void OnGUI()
+    {
+        GUI.Label(new Rect(0, 0, 100, 100), (1.0f / Time.smoothDeltaTime).ToString());
     }
 }

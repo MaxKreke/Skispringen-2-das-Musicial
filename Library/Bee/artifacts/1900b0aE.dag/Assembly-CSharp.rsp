@@ -349,6 +349,7 @@
 "Assets/Scripts/Button.cs"
 "Assets/Scripts/CameraRotation.cs"
 "Assets/Scripts/Grapplendix.cs"
+"Assets/Scripts/IdleAnimation.cs"
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/JumpPad.cs"
 "Assets/Scripts/Keyrotate.cs"
